@@ -1,0 +1,15 @@
+.item{
+    background-color: var(--color-grey-800);
+}
+
+.item h3{
+    color: var(--color-grey-300);
+    padding-top: 0.8rem;
+}
+
+.item p{
+    color: white;
+    padding-bottom: 0.8rem;
+}
+
+

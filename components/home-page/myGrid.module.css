@@ -1,0 +1,41 @@
+
+.sec{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.grid1{
+   
+    margin-top: 1rem;
+    
+}
+
+.grid2{
+   
+    margin-top: 1rem;
+
+   
+}
+
+.imagen{
+    margin-right: 5px !important;
+    padding: 5px !important;
+
+}
+
+@media (min-width: 768px) {
+    .sec{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 1rem;
+}
+.imagen{
+  
+    margin-right: auto !important;
+   
+
+}
+  }
