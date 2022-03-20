@@ -8,7 +8,7 @@ date: '2020-10-30'
 
 ## What about this project? 🧐
 
-My intention in this project was to create a Calendar showing my skills working with **functional components, states, hooks, Redux**, and so on. 
+My intention in this project was to create a Calendar showing my skills working with **functional components, states, hooks, Redux**, and so on. This is a calendar that can be used inside a team to program all the meetings, where each event can be deleted only for the person who has created it.  
 
 **Password must have at least 1 lowercase 1 spacialsymbol and at leat 8 characters**:
 

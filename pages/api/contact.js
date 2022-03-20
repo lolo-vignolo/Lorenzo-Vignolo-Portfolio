@@ -4,11 +4,11 @@ async function handler(req, res) {
 
   let client; // debo hacerlo por que se autentifica cada vez que conecta, sino no funciona
 
-  const connectionStrings = `mongodb+srv://${process.env.mongodb_username}:${process.env.mongodb_password}@${process.env.mongodb_clustername}.khqxu.mongodb.net/${process.env.mongodb_collection}?retryWrites=true&w=majority`
+  //const connectionStrings = `mongodb+srv://${process.env.mongodb_username}:${process.env.mongodb_password}@${process.env.mongodb_clustername}.khqxu.mongodb.net/${process.env.mongodb_collection}?retryWrites=true&w=majority`
 
   try {
     client = await MongoClient.connect(
-      connectionStrings,
+      process.env.DB_CNN,
       { useNewUrlParser: true, useUnifiedTopology: true });
   } catch (error) {
     res.status(500).json({ message: 'Could not connect to database.' }); /// este mensage lo agarro luego desde el fron para mostrarlo

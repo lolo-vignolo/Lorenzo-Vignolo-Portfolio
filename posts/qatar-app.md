@@ -8,7 +8,7 @@ date: '2022-03-15'
 
 **Hey take a look**: 👀
 
-You Can visit this webSite clicking 👉👉👉 [**Web**](https://user-calendar-2021.herokuapp.com/)
+You Can visit this webSite clicking 👉👉👉 *It is in progress, it will be working soon*
 
 you can visit the repository clicking 👉👉👉 [**GitHub**](https://github.com/lolo-vignolo/Qatar-app.git)
 

@@ -7,7 +7,7 @@ function Comments (){
 
     const [comments, setComments] = useState([])
 
-    console.log(comments);
+    
     useEffect(() => {
         fetch('/api/contact',{
             

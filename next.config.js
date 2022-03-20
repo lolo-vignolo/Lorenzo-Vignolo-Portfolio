@@ -1,4 +1,4 @@
-const {PHASE_DEVELOPMENT_SERVER} = require("next/constants")
+//const {PHASE_DEVELOPMENT_SERVER} = require("next/constants")
 
 
 module.exports = {
@@ -14,27 +14,3 @@ module.exports = {
     }
   }
 
-module.exports = (phase) => {
-
-  if(phase === PHASE_DEVELOPMENT_SERVER){
-    return{
-      env:{
-        mongodb_username:"Portfolio-Lorenzo",
-        mongodb_password:"CKu6GRDw1ZILNkxR",
-        mongodb_clustername:"cluster0",
-        mongodb_collection:"myBlog_dev"
-      }
-    }
-
-  }
-  
-
-  return {
-    env:{
-      mongodb_username:"Portfolio-Lorenzo",
-      mongodb_password:"CKu6GRDw1ZILNkxR",
-      mongodb_clustername:"cluster0",
-      mongodb_collection:"myBlog"
-    }
-  }
-}
