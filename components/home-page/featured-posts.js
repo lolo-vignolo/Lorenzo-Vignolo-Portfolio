@@ -24,7 +24,7 @@ function FeaturedPosts(props) {
         </ul>
      </div> 
       <PostsGrid posts={props.posts} />
-      <h1 className={classes.feedback}>Users Feedback 😄</h1>
+      <h1 className={classes.feedback}>User Feedbacks 😄</h1>
       <p className={classes.order} >(Write your feedback in the Feedback tab)</p>
       <Comments />
     </section>

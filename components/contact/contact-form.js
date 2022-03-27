@@ -3,8 +3,6 @@ import { useState, useEffect } from 'react';
 import classes from './contact-form.module.css';
 import Notification from '../ui/notification';
 
-
-
 async function sendContactData(contactDetails) {
   const response = await fetch('/api/contact', {
     method: 'POST',
@@ -21,10 +19,7 @@ async function sendContactData(contactDetails) {
   }
 }
 
-
 //////
-
-
 
 function ContactForm() {
   const [enteredEmail, setEnteredEmail] = useState('');
@@ -33,8 +28,7 @@ function ContactForm() {
   const [requestStatus, setRequestStatus] = useState(); // 'pending', 'success', 'error'
   const [requestError, setRequestError] = useState();
 
-
-/// lo uso para hacer desaparecer el modal de abajo  
+  /// lo uso para hacer desaparecer el modal de abajo
   useEffect(() => {
     if (requestStatus === 'success' || requestStatus === 'error') {
       const timer = setTimeout(() => {
@@ -47,17 +41,13 @@ function ContactForm() {
     }
   }, [requestStatus]);
 
-
-
-
   async function sendMessageHandler(event) {
     event.preventDefault();
     setRequestStatus('pending');
 
-
-
     try {
-      await sendContactData({ ////funcion definida arriba
+      await sendContactData({
+        ////funcion definida arriba
         email: enteredEmail,
         name: enteredName,
         message: enteredMessage,
@@ -73,7 +63,6 @@ function ContactForm() {
   }
 
   let notification; // esta vvariable la crea para luego llamar al componente Notification al final.
-
 
   if (requestStatus === 'pending') {
     notification = {
@@ -92,7 +81,7 @@ function ContactForm() {
   }
 
   if (requestStatus === 'error') {
-      notification = {
+    notification = {
       status: 'error',
       title: 'Error!',
       message: requestError,
@@ -105,20 +94,20 @@ function ContactForm() {
       <form className={classes.form} onSubmit={sendMessageHandler}>
         <div className={classes.controls}>
           <div className={classes.control}>
-            <label htmlFor='email'>Your Email</label>
+            <label htmlFor="email">Your Email</label>
             <input
-              type='email'
-              id='email'
+              type="email"
+              id="email"
               required
               value={enteredEmail}
               onChange={(event) => setEnteredEmail(event.target.value)}
             />
           </div>
           <div className={classes.control}>
-            <label htmlFor='name'>Your Name</label>
+            <label htmlFor="name">Your Name</label>
             <input
-              type='text'
-              id='name'
+              type="text"
+              id="name"
               required
               value={enteredName}
               onChange={(event) => setEnteredName(event.target.value)}
@@ -126,10 +115,10 @@ function ContactForm() {
           </div>
         </div>
         <div className={classes.control}>
-          <label htmlFor='message'>Your Message</label>
+          <label htmlFor="message">Your Message</label>
           <textarea
-            id='message'
-            rows='5'
+            id="message"
+            rows="5"
             required
             value={enteredMessage}
             onChange={(event) => setEnteredMessage(event.target.value)}
