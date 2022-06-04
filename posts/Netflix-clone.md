@@ -1,7 +1,7 @@
 ---
 title: Netflix clone using Angular
 excerpt: App created using Angular with modules and services, a Netflix clone.  🔌🎥🎬
-image: mainScreen.png
+image: main.png
 isFeatured: true
 date: '2022-05-15'
 ---
@@ -25,7 +25,7 @@ This app was a technic test for an Angular position, the goal of this project wa
 For this App I had some rules to follow:
 _Dreadful Tomato needs to implement an awesome webpage where the users could view information about almost every new TV Shows and movie._
 
-![Create routes via your file + folder structure](mainScreen.png)
+![Create routes via your file + folder structure](main.png)
 
 The Design team has sent us the new interface which has to be implemented. As you could see, **there are three different pages.**
 
@@ -39,14 +39,14 @@ The Design team has sent us the new interface which has to be implemented. As yo
 
 **Movies and series** the nearer options which match the search will appear.
 
-![Create routes via your file + folder structure](filmScreen.png)
+![Create routes via your file + folder structure](films.png)
 
 **Film choosen:** Description of a apecific Film or serie.
 
-![Create routes via your file + folder structure](optionScreen.png)
+![Create routes via your file + folder structure](myoption.png)
 
 **Searcher:** Form where you can search a film or serio by its name.
 
 ![Create routes via your file + folder structure](search.png)
 
-Live the experience 👉👉 [**here**](https://myreact-map-app.netlify.app/).
+Live the experience 👉👉 [**here**](https://zingy-piroshki-105a5c.netlify.app).
