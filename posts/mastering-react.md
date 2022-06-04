@@ -1,6 +1,6 @@
 ---
 title: Calendar App - React
-excerpt: This project had the aim of being my first portfolio using React and Redux together. I wanted to put it here to show my improvement 😉. 
+excerpt: This project had the aim of being my first portfolio using React and Redux together. I wanted to put it here to show my improvement 😉.
 image: modify.png
 isFeatured: true
 date: '2020-10-30'
@@ -8,7 +8,7 @@ date: '2020-10-30'
 
 ## What about this project? 🧐
 
-My intention in this project was to create a Calendar showing my skills working with **functional components, states, hooks, Redux**, and so on. This is a calendar that can be used inside a team to program all the meetings, where each event can be deleted only for the person who has created it.  
+My intention in this project was to create a Calendar showing my skills working with **functional components, states, hooks, Redux**, and so on. This is a calendar that can be used inside a team to program all the meetings, where each event can be deleted only for the person who has created it.
 
 **Password must have at least 1 lowercase 1 spacialsymbol and at leat 8 characters**:
 
@@ -40,7 +40,6 @@ In this App you can see the next tools that have been used 🧨:
 
 **Login Screen** where you have the option to login or to create a new user:
 
-
 ![Create routes via your file + folder structure](login.png)
 
 **Manin Screen** where you will find all your events:
@@ -52,8 +51,5 @@ In this App you can see the next tools that have been used 🧨:
 ![Create routes via your file + folder structure](newEvent.png)
 
 ![Create routes via your file + folder structure](modify.png)
-
-
-
 
 Live the experience [**here**](https://user-calendar-2021.herokuapp.com/).
