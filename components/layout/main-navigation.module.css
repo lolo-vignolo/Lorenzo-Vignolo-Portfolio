@@ -81,14 +81,7 @@
   }
 
   .btn {
-    background-color: #0563af;
-    color: white;
-    padding: 0.5rem;
-    border-radius: 50px;
-    font-size: 0.8rem;
-    cursor: pointer;
-    margin-bottom: 0.3rem;
-    margin-left: -18rem;
+    margin-left: -14rem;
   }
 
   .btn:hover {
@@ -98,6 +91,12 @@
 
 @media (min-width: 1200px) {
   .btn {
-    margin-left: -35rem;
+    margin-left: -20rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .btn {
+    margin-left: -25rem;
   }
 }
