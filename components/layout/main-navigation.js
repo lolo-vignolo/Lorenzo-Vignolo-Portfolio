@@ -39,6 +39,7 @@ function MainNavigation({ toggleDarkMode }) {
           <i style={{ marginLeft: '0.2rem' }} className="icon moon outline" />
         </button>
       </div>
+
       <nav>
         {screenWidth > 768 ? (
           <ul>
