@@ -1,5 +1,5 @@
 ---
-title: Calendar App - React
+title: Calendar App - React and Redux
 excerpt: This project had the aim of being my first portfolio using React and Redux together. I wanted to put it here to show my improvement 😉.
 image: modify.png
 isFeatured: true

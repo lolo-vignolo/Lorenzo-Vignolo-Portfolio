@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  height: 6rem;
+  height: 5rem;
   background-color: var(--color-grey-900);
   display: flex;
   justify-content: space-between;
@@ -15,6 +15,21 @@
   align-items: baseline;
   margin: 0;
   padding: 0;
+}
+
+.btn {
+  background-color: #0563af;
+  color: white;
+  padding: 0.2rem;
+  border-radius: 70px;
+  font-size: 0.5rem;
+  cursor: pointer;
+  margin-bottom: 0.1rem;
+  margin-left: 0.5rem;
+}
+
+.btn:hover {
+  background-color: #2f36a2;
 }
 
 .items:nth-child(1) {
@@ -63,5 +78,26 @@
 
   .header a {
     font-size: var(--size-5);
+  }
+
+  .btn {
+    background-color: #0563af;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    margin-bottom: 0.3rem;
+    margin-left: -14rem;
+  }
+
+  .btn:hover {
+    background-color: #2f36a2;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn {
+    margin-left: -20rem;
   }
 }

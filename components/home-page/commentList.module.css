@@ -1,15 +1,23 @@
-.item{
-    background-color: var(--color-grey-800);
+.item {
+  background-color: var(--color-grey-800);
+  border-radius: 15px;
+
+  align-items: center;
 }
 
-.item h3{
-    color: var(--color-grey-300);
-    padding-top: 0.8rem;
+.item h3 {
+  padding-top: 0.8rem;
+  color: var(--color-primary-200);
 }
 
-.item p{
-    color: white;
-    padding-bottom: 0.8rem;
+.item p {
+  color: white;
+  margin-left: 05rem;
 }
 
-
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}

@@ -22,7 +22,7 @@ This App was built with the aim of offering a kind of space where people can giv
 
 ## How this App was done? 👨‍💻
 
-App built using Next.js and its most wonrderful tool, which allows us a **server-side rendering** such as **getInitialPorps()**. Then, I have done programmatic navigation using **useRouter** in order to achieve a piece of the URL to navigate to a specific page. The **backend** was done using **Firebase**.
+App built using Next.js and its most wonderful tool, which allows us a **server-side rendering** such as **getInitialPorps()**. Then, I have done programmatic navigation using **useRouter** in order to achieve a piece of the URL to navigate to a specific page. The **backend** was done using **Firebase**.
 
 ---
 

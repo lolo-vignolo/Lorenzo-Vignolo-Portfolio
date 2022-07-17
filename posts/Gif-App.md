@@ -2,7 +2,7 @@
 title: My first App using Angular
 excerpt: App for searching famous Gifs. Where you have a searcher and the lastest searches are saved. 📳💣
 image: gifApp.png
-isFeatured: true
+isFeatured: false
 date: '2022-06-01'
 ---
 

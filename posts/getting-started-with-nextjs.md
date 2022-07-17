@@ -2,7 +2,7 @@
 title: 'Next.JS and React - The complete Guide'
 date: '2022-01-16'
 image: getting-started-nextjs.png
-excerpt: NextJS is a the React framework for production - it makes building fullstack React apps and sites a breeze and ships with built-in SSR. 🧨
+excerpt: Next.JS is the React framework for production - it makes building fulls-tack React apps and sites a breeze and ships with built-in SSR. 🧨
 isFeatured: false
 ---
 
@@ -40,12 +40,11 @@ In this curse, I have dived into the core concepts and features NextJS has to of
 
 ## Server Side Rendering 💻
 
-Next.js gives us between others, the option to render on the server side. One of the option is **getStaticProps** the render will be done with **npm run build**, and another **getServersideProps**.
+Next.js gives us among others, the option to render on the server side. One of the option is **getStaticProps** the render will be done with **npm run build**, and another **getServersideProps**.
 
 ```js
 export function getStaticProps(context) {
- 
-    // information from a Fetch , Axios, my App, etc.
+  // information from a Fetch , Axios, my App, etc.
 
   return {
     props: {
@@ -56,9 +55,8 @@ export function getStaticProps(context) {
 }
 
 export function getStaticPaths() {
-  
-    // When the Rutes are dinamics, we should create them
-    // as well in the build momet. Also,There exist other options.
+  // When the Rutes are dinamics, we should create them
+  // as well in the build momet. Also,There exist other options.
 
   const slugs = postFilenames.map((fileName) => fileName.replace(/\.md$/, ''));
 
@@ -67,12 +65,11 @@ export function getStaticPaths() {
     fallback: false,
   };
 }
-
 ```
 
 ## File-based Routing 🚦
 
-Another really useful thing in Next.js the *File-bases Routing*, with a route system integrated, going into it through the folder **pages**. 
+Another really useful thing in Next.js is the _File-bases Routing_, with a route system, integrated, going into it through the folder **pages**.
 
 ![Create routes via your file + folder structure](routes.png)
 
@@ -80,11 +77,10 @@ Another really useful thing in Next.js the *File-bases Routing*, with a route sy
 
 ## Diplomas, Next.js Courses 📜
 
-- *Next.js & React - The Complete Guide*
+- _Next.js & React - The Complete Guide_
 
 ![Create routes via your file + folder structure](nextjs.png)
 
-- *Create your own E-commerce*
+- _Create your own E-commerce_
 
 ![Create routes via your file + folder structure](E-commerce.png)
-

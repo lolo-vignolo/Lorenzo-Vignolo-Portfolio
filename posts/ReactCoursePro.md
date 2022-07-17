@@ -7,8 +7,7 @@ isFeatured: false
 ---
 
 **Course content**: 📗
-
-Cour of **27 HOURS and 233 LECTURES** A course to improve your current skills in React, where you can learn about Formik, Lazyload, Storybook, PWA, and More. It is the precfect course to continue improving our skills using React.js and learn another new ones.
+A course of **27 HOURS and 233 LECTURES** A course to improve your current skills in React, where you can learn about Formik, Lazyload, Storybook, PWA, and More. It is a perfect course to continue improving our skills using React.js and learn new ones.
 
 _Key topics_:
 
@@ -96,7 +95,7 @@ export default useProduct;
 
 ---
 
-## You can visit the repositories built in this course in the above links 😲
+## You can visit the repository built in this course in the above links 😲
 
 **Component Pattern** - _Navigating throug the different branches you will be able to see the proccess_
 

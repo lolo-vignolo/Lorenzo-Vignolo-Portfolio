@@ -2,7 +2,7 @@
 title: 'Angular (11+) from Scratch to an Expert '
 date: '2022-06-04'
 image: angular.png
-excerpt: A complete guide for learning Angular deeply, through different tasks and exercises. Problems resolutions and Apis consumming. 🏆
+excerpt: A complete guide for learning Angular deeply, through different tasks and exercises. Problems resolutions and Apis consuming. 🏆
 isFeatured: false
 ---
 

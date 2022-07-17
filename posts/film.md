@@ -8,7 +8,7 @@ date: '2022-05-15'
 
 **Hey take a look**: 👀
 
-You can visit this webSite clicking 👉👉👉 [**Web**](https://zingy-piroshki-105a5c.netlify.app)
+You can visit this webSite clicking 👉👉👉 [**Web**](https://kindofnetflix.netlify.app)
 
 you can visit the repository clicking 👉👉👉 [**GitHub**](https://github.com/lolo-vignolo/my-netflix-app)
 
@@ -16,7 +16,7 @@ you can visit the repository clicking 👉👉👉 [**GitHub**](https://github.c
 
 ## What is this project about? 🧨
 
-This app was a technic test for an Angular position, the goal of this project was to create an app similar to Nexflix where users couls select between filsm and movies, create a shearcher, an option to save the las view visited, and give special information about a specific choise. The **data** was gotten throug an API given by the company.
+This app was a technic test for an Angular position, the goal of this project was to create an app similar to Nexflix where users could select between films and movies, create a searcher, and an option to save the last view visited, and give special information about a specific choice. The **data** was gotten through an API given by the company.
 
 ---
 
@@ -29,8 +29,8 @@ _Dreadful Tomato needs to implement an awesome webpage where the users could vie
 
 The Design team has sent us the new interface which has to be implemented. As you could see, **there are three different pages.**
 
-- The first page is a landing page where user could select whether she wants to see TV shows or movies and some claims and logo of Dreadful Tomato
-- The second one is the list of TV shows. Here, the user could filter TV shows by title and release year. In that page the user will see a list of card with the Title, description and image from each TV show.
+- The first page is a landing page where the user could select whether she wants to see TV shows or movies and some claims and logo of Dreadful Tomato
+- The second one is the list of TV shows. Here, the user could filter TV shows by title and release year. On that page, the user will see a list of cards with the title, description, and image from each TV show.
 - The third one is quite similar, but for the movies. The user could filter by title and release year as well, to see a list of cards with the information of every movie.
 
 ---
@@ -41,11 +41,11 @@ The Design team has sent us the new interface which has to be implemented. As yo
 
 ![Create routes via your file + folder structure](films.png)
 
-**Film choosen:** Description of a apecific Film or serie.
+**Film choosen:** Description of a specific Film or serie.
 
 ![Create routes via your file + folder structure](myoption.png)
 
-**Searcher:** Form where you can search a film or serio by its name.
+**Searcher:** Form where you can search a film or serie by its name.
 
 ![Create routes via your file + folder structure](search.png)
 

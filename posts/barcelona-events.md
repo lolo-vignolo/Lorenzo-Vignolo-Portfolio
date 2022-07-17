@@ -22,7 +22,7 @@ This App has the aim of offering information to different Tourists and people fr
 
 ## How this App was done? 👨‍💻
 
-In order to get better positioning and to give useful information to the **Crawler**, I have decided to create this webSite using **Next.js**. With the help of two really strong instruments such us **GetStaticProps** and **GetStaticPath**, I could achieve a **service side rendering** in the building moment. In this way, I offer key information to these crawlers. Also, in this Website Login and Auth screens were done using Next/Auth, in this way any user has to be login in order to visit the different private routes. Also, taking into account that in this App the administrator has to update the information, I decided to create a private route abailable for people that manage the webApp. The BackEnd was done using Mongoo DB, the deplyment by Vercel taking the advantage that it offers for next.js apps.
+In order to get better positioning and to give useful information to the **Crawler**, I have decided to create this webSite using **Next.js**. With the help of two really strong instruments such us **GetStaticProps** and **GetStaticPath**, I could achieve a **service side rendering** in the building moment. In this way, I offer key information to these crawlers. Also, on this Website Login and Auth screens were done using Next/Auth, in this way any user has to be login in order to visit the different private routes. Also, taking into account that in this App the administrator has to update the information, I decided to create a private route available for people that manage the webApp. The BackEnd was done using Mongoo DB, the deployment by Vercel taking the advantage that it offers for next.js apps.
 
 In this App you can see the next tools that have been used 🧨:
 
@@ -46,23 +46,23 @@ In this App you can see the next tools that have been used 🧨:
 
 ## Some Pictures 🎨
 
-**Main Screen** Auth screen, where you can create and loging as user.
+**Main Screen** Auth screen, where you can create and login yourself as a user.
 
 ![Create routes via your file + folder structure](auth.png)
 
-**Admin screen** This screen will be seen only with people with an special token.
+**Admin screen** This screen will be seen only for people with a special token.
 
 ![Create routes via your file + folder structure](create.png)
 
-**Search according to a date** you can find an event in a determinated month and year.
+**Search according to a date** you can find an event in a determined month and year.
 
 ![Create routes via your file + folder structure](main-screen.png)
 
-**see datails** go deeper and look the whole information.
+**see datails** go deeper and look at the whole information.
 
 ![Create routes via your file + folder structure](information.png)
 
-**Add a new event** only abailable for the Admin.
+**Add a new event** only available for the Admin.
 
 ![Create routes via your file + folder structure](newEvent.png)
 

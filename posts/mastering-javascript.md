@@ -14,69 +14,71 @@ JavaScript powers the web - it's **one of the** most important programming langu
 
 - variables
 - Data Types
-- BasicOperators 
+- BasicOperators
 - if / else Sttements
-- Logical Operatos 
+- Logical Operatos
 - Ternay Conditional Operator
-- Functions 
+- Functions
 - Arrays
-- Object-Oriented Programming 
+- Object-Oriented Programming
 - Loops
 - Map , Filter , reduce
 - Asynchronous JavaScript,Fetch, AJAX and APIs
 - Promises
-- Debugging 
-- etc. 
+- Debugging
+- etc.
 
 ---
 
 ## Some JavaScript examples:
 
 ```js
-const basics = [{
-      name: "Lorenzo",
-      age: 29
-    },{
-      name:"Gbriel",
-      age:35
-    }
+const basics = [
+  {
+    name: 'Lorenzo',
+    age: 29,
+  },
+  {
+    name: 'Gbriel',
+    age: 35,
+  },
 ];
 
-basics.map((item)=>{
-  return(
-      <ul key ={item.i}>
-        <li>{item.name}</li> 
-        <li>{item.age} </li>
-      </ul>   
-    )
-})
+basics.map((item) => {
+  return (
+    <ul key={item.i}>
+      <li>{item.name}</li>
+      <li>{item.age} </li>
+    </ul>
+  );
+});
 
 printBasics();
 ```
 
 ```js
-import axios from "axios";
+import axios from 'axios';
 
-function getInformation (){
-
-  axios.get("Url")
-  .then(res => res.data)
-  .catch(err => console.log(err))
+function getInformation() {
+  axios
+    .get('Url')
+    .then((res) => res.data)
+    .catch((err) => console.log(err));
 }
 
-getInformation()
+getInformation();
 ```
+
 ---
 
 ## Diplomas, Next.js Courses 📜
 
-- *Next.js & React - The Complete Guide*
+- _interacting with arrays_ 😄
 
-![Create routes via your file + folder structure](nextjs.png)
-
+![Create routes via your file + folder structure](js.PNG)
 
 **The #1 bestselling JavaScript course on Udemy!**
 
- _Updated for ES2021 and ES2022 in November 2021_
+_Updated for ES2021 and ES2022 in November 2021_
 
-*"Really, really well made course. Super in-depth, with great challenges and projects that will solidify your Javascript understanding. I found the lectures were paced perfectly -- Jonas doesn't skip over anything that might be useful to a JS developer" — Carson Bartholomew*
+_"Really, really well made course. Super in-depth, with great challenges and projects that will solidify your Javascript understanding. I found the lectures were paced perfectly -- Jonas doesn't skip over anything that might be useful to a JS developer" — Carson Bartholomew_

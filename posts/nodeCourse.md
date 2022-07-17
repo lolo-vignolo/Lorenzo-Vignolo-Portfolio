@@ -8,7 +8,7 @@ date: '2021-02-30'
 
 ## What about this course? 🧐
 
-With the aim of learning Node.js this course goes through different toolds and option that Node offers, but in this course not only node is seen deeply but also other topics such as:
+With the aim of learning Node.js this course goes through different tools and options that Node offers, but in this course, not only node is seen deeply but also other topics such as:
 
 - MongoDB
 - SocketIO

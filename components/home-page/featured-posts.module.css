@@ -6,9 +6,8 @@
 
 .latest h2 {
   font-size: var(--size-8);
-  color: var(--color-grey-900);
+  color: var(--color-grey-50);
   text-align: center;
-  
 }
 
 .ulicon {
@@ -18,45 +17,49 @@
   justify-content: center;
   margin: 2rem 0 2rem 0;
   padding: 0;
-  
 }
 
 .icon1 {
   margin: 0 var(--size-4);
   font-size: 2.5rem;
   cursor: pointer;
-  color:#1320e2
+  color: #1320e2;
 }
 
 .icon2 {
   margin: 0 var(--size-4);
   font-size: 2.5rem;
   cursor: pointer;
-  color:#4A5568;
+  color: #4a5568;
 }
 .icon3 {
   margin: 0 var(--size-4);
   font-size: 3rem;
   cursor: pointer;
-  color:white;
+  color: white;
 }
 
-.feedback{
+.feedback {
   color: white;
   justify-content: center;
   display: flex;
   margin-bottom: 0.2rem;
 }
-.order{
+.order {
   display: flex;
   color: white;
   font-size: 0.8rem;
   justify-content: center;
 }
 
-
-
 @media (min-width: 768px) {
+  .latest {
+    width: 90%;
+    max-width: 80rem;
+    margin: var(--size-8) auto;
+    margin-top: 10rem;
+  }
+
   .latest h2 {
     font-size: var(--size-16);
   }
@@ -64,16 +67,20 @@
   .ulicon {
     margin: 3rem 0 0 0;
     padding: 0 0 3rem 0;
-   
   }
 
-  .feedback{
+  .feedback {
     font-size: 2rem;
   }
 
-  .order{
+  .order {
     font-size: 1rem;
   }
+}
 
-
+@media (min-width: 1200px) {
+  .latest {
+    margin: var(--size-8) auto;
+    margin-top: var(--size-8);
+  }
 }

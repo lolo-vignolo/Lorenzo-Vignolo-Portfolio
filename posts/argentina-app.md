@@ -16,15 +16,15 @@ you can visit the repository clicking 👉👉👉 [**GitHub**](https://github.c
 
 ## What about this project? 🌍
 
-As you could see, it is a complete App thought to show Argentina, where people can add new places if they wish. I create this app taking into consideration that in my trips, many people asked me about my country. Now, I have something to show, right? ⛺
+As you could see, it is a complete App thought to show Argentina, where people can add new places if they wish. I create this app taking into consideration that on my trips, many people asked me about my country. Now, I have something to show, right? ⛺
 
 ---
 
 ## How this App was done? 👨‍💻
 
-In order to get better positioning and to give useful information to the **Crawler**, I have decided to create this webSite using **Next.js**. With the help of two really strong instruments such us **GetStaticProps** and **GetStaticPath**, I could achieve a **service side rendering** in the building moment. In this way, I offer key information to these crawlers. Also, in this Website Login and Auth screens were done using Next/Auth, in this way any user has to be login in order to visit the different private routes. The BackEnd was done using Mongoo DB, the deplyment by Vercel taking the advantage that it offers for next.js apps.
+In order to get better positioning and to give useful information to the **Crawler**, I have decided to create this webSite using **Next.js**. With the help of two really strong instruments such us **GetStaticProps** and **GetStaticPath**, I could achieve a **service side rendering** in the building moment. In this way, I offer key information to these crawlers. Also, on this Website Login and Auth screens were done using Next/Auth, in this way any user has to be login in order to visit the different private routes. The BackEnd was done using Mongoo DB, the deplyment by Vercel taking the advantage that it offers for next.js apps.
 
-In this App you can see the next tools that have been used 🧨:
+On this App you can see the next tools that have been used 🧨:
 
 - Next.js
 - Next/Auth
@@ -54,7 +54,7 @@ In this App you can see the next tools that have been used 🧨:
 
 ![Create routes via your file + folder structure](allPlaces.png)
 
-**Place Page** A page where you can find full information about a specific Place, also some puntutations.
+**Place Page** A page where you can find full information about a specific Place, also some punctutations.
 
 ![Create routes via your file + folder structure](place.png)
 

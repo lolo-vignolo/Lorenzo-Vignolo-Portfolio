@@ -1,21 +1,43 @@
+.divlog {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 6rem;
+}
+
 .logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   text-transform: uppercase;
-  font-size: var(--size-6);
+  font-size: var(--size-5);
   font-weight: bold;
   font-family: 'Oswald', sans-serif;
   color: var(--color-grey-50);
 }
 
-.logo h1{
+.logo h1 {
   font-size: 1rem;
+}
+.img {
+  animation: App-logo-spin infinite 20s linear !important;
 }
 
 @media (min-width: 768px) {
+  .divlog {
+    width: 8rem;
+  }
   .logo {
     font-size: var(--size-8);
+    margin-bottom: 0.5rem;
   }
+}
 
-  .logo h1{
-    font-size: 3rem;
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }

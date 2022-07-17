@@ -1,12 +1,7 @@
 .hero {
   text-align: center;
   height: 100vh;
-  background-image: linear-gradient(
-    to bottom,
-    var(--color-grey-900),
-    var(--color-grey-600)
 
-  );
   padding: var(--size-8) 0;
 }
 
@@ -39,21 +34,16 @@
   color: white;
 }
 
-.hero p {
+/* .hero p {
   font-size: var(--size-6);
   color: var(--color-grey-200);
   width: 75%;
   max-width: 40rem;
   margin: auto;
-}
-
-
+} */
 
 @media (min-width: 1000px) {
-  
-.hero h1 {
-  font-size: var(--size-16);
-
-}
-
+  .hero h1 {
+    font-size: var(--size-16);
+  }
 }

@@ -1,3 +1,8 @@
+.mainContact {
+  height: 100vh;
+  padding: var(--size-8) 0;
+}
+
 .contact {
   margin: var(--size-8) auto;
   border-radius: 6px;
@@ -69,5 +74,10 @@
   .contact h1 {
     font-size: var(--size-16);
     text-align: center;
+  }
+
+  .mainContact {
+    height: 100vh;
+    padding: var(--size-8) 0;
   }
 }

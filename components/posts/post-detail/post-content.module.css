@@ -1,16 +1,20 @@
 .content {
-  width: 95%;
+  width: 93%;
   max-width: 60rem;
   margin: var(--size-8) auto;
   font-size: var(--size-5);
   line-height: var(--size-8);
-  background-color: var(--color-grey-100);
+  background-color: var(--color-grey-800);
   border-radius: 6px;
   padding: var(--size-4);
+  color: var(--color-grey-100);
 }
-
+.divContent {
+  padding: var(--size-8);
+}
 .content p {
-  color: var(--color-grey-800);
+  color: var(--color-grey-50);
+  margin-left: 0rem;
 }
 
 .content .image {
@@ -22,5 +26,14 @@
 @media (min-width: 768px) {
   .content {
     padding: var(--size-8);
+  }
+
+  .divContent {
+    padding: var(--size-8);
+  }
+
+  .content p {
+    color: var(--color-grey-50);
+    margin-left: 0rem;
   }
 }
