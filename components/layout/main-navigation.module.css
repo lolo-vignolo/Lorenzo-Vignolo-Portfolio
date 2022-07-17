@@ -81,7 +81,9 @@
   }
 
   .btn {
-    margin-left: -14rem;
+    margin-left: -17rem;
+    font-size: 1rem;
+    padding: 0.4rem;
   }
 
   .btn:hover {
@@ -91,12 +93,12 @@
 
 @media (min-width: 1200px) {
   .btn {
-    margin-left: -20rem;
+    margin-left: -23rem;
   }
 }
 
 @media (min-width: 1400px) {
   .btn {
-    margin-left: -25rem;
+    margin-left: -28rem;
   }
 }

@@ -8,8 +8,8 @@ function Logo() {
         <Image
           src="/reactlogo.png"
           alt="logo"
-          width={35}
-          height={35}
+          width={40}
+          height={40}
           className={classes.img}
         />
       </div>
