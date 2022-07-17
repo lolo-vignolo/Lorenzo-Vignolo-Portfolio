@@ -81,7 +81,7 @@
   }
 
   .btn {
-    margin-left: -17rem;
+    margin-left: -14.8em;
     font-size: 1rem;
     padding: 0.4rem;
   }
@@ -93,12 +93,12 @@
 
 @media (min-width: 1200px) {
   .btn {
-    margin-left: -23rem;
+    margin-left: -24.8rem;
   }
 }
 
 @media (min-width: 1400px) {
   .btn {
-    margin-left: -28rem;
+    margin-left: -26rem;
   }
 }
