@@ -27,17 +27,19 @@ function MainNavigation({ toggleDarkMode }) {
 
   return (
     <header className={classes.header}>
-      <Link href="/">
-        <a>
-          <Logo />
-        </a>
-      </Link>
-      <div>
-        <button className={classes.btn} onClick={() => toggleDarkMode()}>
-          <i className="icon sun outline" />
-          |
-          <i style={{ marginLeft: '0.2rem' }} className="icon moon outline" />
-        </button>
+      <div className={classes.logo}>
+        <Link href="/">
+          <a>
+            <Logo />
+          </a>
+        </Link>
+        <div>
+          <button className={classes.btn} onClick={() => toggleDarkMode()}>
+            <i style={{ marginLeft: '0.2rem' }} className="icon sun outline" />
+            |
+            <i style={{ marginLeft: '0.2rem' }} className="icon moon outline" />
+          </button>
+        </div>
       </div>
 
       <nav>
